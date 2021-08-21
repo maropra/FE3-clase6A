@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color: rgb(13, 51, 45);
+}
+
+.hero{
+  background: var(--main-color);
+  color: white;
+  padding: 8rem 0;
+  width: 100%;
+}
+
+.hero .title{
+  width: 70%;
+  margin: auto;
+  max-width: 700px;
+}
+
+.container{
+  width: 70%;
+  margin: 5rem auto;
+  max-width: 700px;
+}
+
